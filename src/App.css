@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.body{
+  font-family: "Inter";
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navbar{
+  width: 100%;
+  background-color: #F55A5A;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav--logo{
+  margin-left: 45%;
+  margin-right: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  margin: 40px;
+  margin-left: 60px;
+  margin-bottom: 45px;
+  display: flex;
+  height: 168px;
+  width: 50%;
+}
+
+.trip--info{
+  height: 168px;
+  padding-left: 30px;
+}
+
+.trip--cntry{
+  font-size: xx-small;
+  margin-bottom: 0;
+}
+
+.trip--location{
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.trip--date{
+  font-size:x-small;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.trip--desc{
+  font-size: smaller;
 }
